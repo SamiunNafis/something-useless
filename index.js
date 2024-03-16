@@ -25,7 +25,7 @@ async function fetchWebsiteHTML(url) {
 }
 
 // Usage example
-const websiteURL = 'https://perchance.org/ai-text-to-image-generator';
+const websiteURL = 'https://www.example.com';
 fetchWebsiteHTML(websiteURL)
     .then(html => {
         console.log('Website HTML:', html);
